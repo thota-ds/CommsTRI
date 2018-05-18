@@ -37,10 +37,10 @@
     ------------------------------------------------------
  
     export ORACLE_HOME=${oracle.home}
-    export ANT_HOME=${ORACLE_HOME}/modules/org.apache.ant_1.7.1
+    export ANT_HOME=${ANT_HOME}
     export PATH=${ANT_HOME}/bin:$PATH
     export CURRENT_FOLDER=`pwd`
-    export JAVA_HOME=${ORACLE_HOME}/jdk1.6.0_21
+    export JAVA_HOME=${JAVA_HOME}
  
     ant help -verbose
     ant deployComposites -verbose
